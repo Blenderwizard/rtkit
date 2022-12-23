@@ -83,5 +83,5 @@ module_exit(rootkit_exit);
 
 MODULE_LICENSE("GPL");
 MODULE_AUTHOR("Blenderwizard");
-MODULE_DESCRIPTION("Rootkit");
-MODULE_VERSION("0.01");
+MODULE_DESCRIPTION("rtkit");
+MODULE_VERSION("1");
