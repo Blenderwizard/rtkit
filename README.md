@@ -36,6 +36,6 @@ You will need to be a privelaged used on the system to run `make install`.
 Congrats the rootkit has been installed!
 
 ## Uninstall
-To uninstall you need to unhide the module, the default to unhide the module command is `kill -65 1`. Then run `make uninstall`.
+To uninstall you need to unhide the module, you can check if the module is hidden with `lsmod`. If the module is hiddent you can unhide it with `kill -65 1`. 
 
-
+Then run `make uninstall`.
