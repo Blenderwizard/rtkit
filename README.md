@@ -10,7 +10,7 @@ rtkit is a Simple Linux Kernel Module, or LKM, rootkit that allows users to hide
 >
 > Use of this project is for **Educational / Testing purposes only**. Using it on **unauthorised machines** is **strictly forbidden**. If somebody is found to use it for **illegal / malicious intent**, author of the repo will **not** be held responsible.
 
-> **Info**
+> **Note**
 >
 > This Module has only been tested on linux kernel version 6.0.0. It should be compatable with most other versions.
 
